@@ -1,0 +1,164 @@
+Relationships:
+root { 
+? F1
+? F2
+F3 { 
+F28
+ }
+? F4 { 
+? F24
+? F25 { 
+? F29
+ }
+F26
+F27
+ }
+? F5
+F6
+ oneOf {F7 { 
+F9
+? F10
+F11
+? F12
+ oneOf {F13 { 
+F17
+ oneOf {F18
+F19
+} oneOf {F20
+F21
+}F22
+F23
+ }
+F14
+}F15
+F16
+ }
+F8
+} }
+
+Attributes:
+int F1.Atribute3 [0..10] delta 1 default 6
+@ND int F1.Atribute2 [0..10] delta 1 default 1
+@ND int F1.Atribute4 [0..10] delta 1 default 8
+int F1.Atribute1 [0..10] delta 1 default 9
+int F1.Atribute0 [0..10] delta 1 default 2
+@ND int F2.Atribute3 [0..10] delta 1 default 9
+int F2.Atribute2 [0..10] delta 1 default 9
+@ND int F2.Atribute4 [0..10] delta 1 default 9
+int F2.Atribute1 [0..10] delta 1 default 9
+@ND int F2.Atribute0 [0..10] delta 1 default 10
+int F28.Atribute3 [0..10] delta 1 default 3
+@ND int F28.Atribute2 [0..10] delta 1 default 6
+int F28.Atribute4 [0..10] delta 1 default 6
+@ND int F28.Atribute1 [0..10] delta 1 default 8
+@ND int F28.Atribute0 [0..10] delta 1 default 6
+int F24.Atribute3 [0..10] delta 1 default 7
+int F24.Atribute2 [0..10] delta 1 default 6
+int F24.Atribute4 [0..10] delta 1 default 6
+int F24.Atribute1 [0..10] delta 1 default 1
+int F24.Atribute0 [0..10] delta 1 default 0
+@ND int F29.Atribute3 [0..10] delta 1 default 9
+@ND int F29.Atribute2 [0..10] delta 1 default 8
+@ND int F29.Atribute4 [0..10] delta 1 default 1
+@ND int F29.Atribute1 [0..10] delta 1 default 3
+@ND int F29.Atribute0 [0..10] delta 1 default 5
+int F26.Atribute3 [0..10] delta 1 default 1
+int F26.Atribute2 [0..10] delta 1 default 8
+int F26.Atribute4 [0..10] delta 1 default 8
+@ND int F26.Atribute1 [0..10] delta 1 default 3
+int F26.Atribute0 [0..10] delta 1 default 4
+int F27.Atribute3 [0..10] delta 1 default 5
+int F27.Atribute2 [0..10] delta 1 default 8
+int F27.Atribute4 [0..10] delta 1 default 3
+int F27.Atribute1 [0..10] delta 1 default 1
+@ND int F27.Atribute0 [0..10] delta 1 default 7
+int F5.Atribute3 [0..10] delta 1 default 4
+int F5.Atribute2 [0..10] delta 1 default 6
+@ND int F5.Atribute4 [0..10] delta 1 default 6
+@ND int F5.Atribute1 [0..10] delta 1 default 6
+int F5.Atribute0 [0..10] delta 1 default 3
+int F6.Atribute3 [0..10] delta 1 default 0
+int F6.Atribute2 [0..10] delta 1 default 4
+int F6.Atribute4 [0..10] delta 1 default 4
+@ND int F6.Atribute1 [0..10] delta 1 default 0
+@ND int F6.Atribute0 [0..10] delta 1 default 8
+@ND int F9.Atribute3 [0..10] delta 1 default 10
+int F9.Atribute2 [0..10] delta 1 default 7
+int F9.Atribute4 [0..10] delta 1 default 5
+int F9.Atribute1 [0..10] delta 1 default 8
+@ND int F9.Atribute0 [0..10] delta 1 default 9
+@ND int F10.Atribute3 [0..10] delta 1 default 5
+int F10.Atribute2 [0..10] delta 1 default 6
+int F10.Atribute4 [0..10] delta 1 default 4
+int F10.Atribute1 [0..10] delta 1 default 3
+int F10.Atribute0 [0..10] delta 1 default 6
+int F11.Atribute3 [0..10] delta 1 default 5
+@ND int F11.Atribute2 [0..10] delta 1 default 5
+@ND int F11.Atribute4 [0..10] delta 1 default 7
+@ND int F11.Atribute1 [0..10] delta 1 default 4
+int F11.Atribute0 [0..10] delta 1 default 6
+int F12.Atribute3 [0..10] delta 1 default 10
+int F12.Atribute2 [0..10] delta 1 default 4
+@ND int F12.Atribute4 [0..10] delta 1 default 5
+@ND int F12.Atribute1 [0..10] delta 1 default 2
+@ND int F12.Atribute0 [0..10] delta 1 default 6
+int F17.Atribute3 [0..10] delta 1 default 6
+@ND int F17.Atribute2 [0..10] delta 1 default 9
+@ND int F17.Atribute4 [0..10] delta 1 default 7
+int F17.Atribute1 [0..10] delta 1 default 3
+int F17.Atribute0 [0..10] delta 1 default 6
+@ND int F18.Atribute3 [0..10] delta 1 default 5
+int F18.Atribute2 [0..10] delta 1 default 6
+int F18.Atribute4 [0..10] delta 1 default 6
+int F18.Atribute1 [0..10] delta 1 default 2
+@ND int F18.Atribute0 [0..10] delta 1 default 8
+@ND int F19.Atribute3 [0..10] delta 1 default 6
+@ND int F19.Atribute2 [0..10] delta 1 default 2
+int F19.Atribute4 [0..10] delta 1 default 7
+@ND int F19.Atribute1 [0..10] delta 1 default 8
+int F19.Atribute0 [0..10] delta 1 default 1
+int F20.Atribute3 [0..10] delta 1 default 5
+int F20.Atribute2 [0..10] delta 1 default 7
+int F20.Atribute4 [0..10] delta 1 default 6
+@ND int F20.Atribute1 [0..10] delta 1 default 3
+int F20.Atribute0 [0..10] delta 1 default 4
+int F21.Atribute3 [0..10] delta 1 default 6
+int F21.Atribute2 [0..10] delta 1 default 2
+@ND int F21.Atribute4 [0..10] delta 1 default 1
+@ND int F21.Atribute1 [0..10] delta 1 default 3
+int F21.Atribute0 [0..10] delta 1 default 7
+int F22.Atribute3 [0..10] delta 1 default 8
+int F22.Atribute2 [0..10] delta 1 default 2
+int F22.Atribute4 [0..10] delta 1 default 5
+@ND int F22.Atribute1 [0..10] delta 1 default 8
+int F22.Atribute0 [0..10] delta 1 default 6
+int F23.Atribute3 [0..10] delta 1 default 7
+@ND int F23.Atribute2 [0..10] delta 1 default 2
+@ND int F23.Atribute4 [0..10] delta 1 default 5
+int F23.Atribute1 [0..10] delta 1 default 1
+int F23.Atribute0 [0..10] delta 1 default 4
+@ND int F14.Atribute3 [0..10] delta 1 default 5
+int F14.Atribute2 [0..10] delta 1 default 3
+@ND int F14.Atribute4 [0..10] delta 1 default 5
+int F14.Atribute1 [0..10] delta 1 default 10
+int F14.Atribute0 [0..10] delta 1 default 8
+int F15.Atribute3 [0..10] delta 1 default 2
+@ND int F15.Atribute2 [0..10] delta 1 default 2
+@ND int F15.Atribute4 [0..10] delta 1 default 5
+@ND int F15.Atribute1 [0..10] delta 1 default 4
+int F15.Atribute0 [0..10] delta 1 default 1
+@ND int F16.Atribute3 [0..10] delta 1 default 1
+int F16.Atribute2 [0..10] delta 1 default 3
+int F16.Atribute4 [0..10] delta 1 default 5
+@ND int F16.Atribute1 [0..10] delta 1 default 1
+int F16.Atribute0 [0..10] delta 1 default 8
+@ND int F8.Atribute3 [0..10] delta 1 default 2
+int F8.Atribute2 [0..10] delta 1 default 5
+@ND int F8.Atribute4 [0..10] delta 1 default 7
+int F8.Atribute1 [0..10] delta 1 default 6
+int F8.Atribute0 [0..10] delta 1 default 1
+
+Constraints:
+F22 excludes F10
+F20 excludes F8
+F22 excludes F23

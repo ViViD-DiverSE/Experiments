@@ -1,0 +1,62 @@
+Relationships:
+root { 
+F1
+? F2
+F3
+F4
+? F5
+? F6
+ oneOf {F7
+F8
+F9
+} }
+
+Attributes:
+int F1.Atribute3 [0..10] delta 1 default 9
+int F1.Atribute2 [0..10] delta 1 default 4
+int F1.Atribute4 [0..10] delta 1 default 1
+int F1.Atribute1 [0..10] delta 1 default 0
+@ND int F1.Atribute0 [0..10] delta 1 default 1
+int F2.Atribute3 [0..10] delta 1 default 5
+@ND int F2.Atribute2 [0..10] delta 1 default 9
+int F2.Atribute4 [0..10] delta 1 default 5
+int F2.Atribute1 [0..10] delta 1 default 3
+@ND int F2.Atribute0 [0..10] delta 1 default 2
+int F3.Atribute3 [0..10] delta 1 default 4
+@ND int F3.Atribute2 [0..10] delta 1 default 10
+@ND int F3.Atribute4 [0..10] delta 1 default 5
+int F3.Atribute1 [0..10] delta 1 default 1
+int F3.Atribute0 [0..10] delta 1 default 8
+int F4.Atribute3 [0..10] delta 1 default 2
+int F4.Atribute2 [0..10] delta 1 default 8
+int F4.Atribute4 [0..10] delta 1 default 9
+int F4.Atribute1 [0..10] delta 1 default 4
+@ND int F4.Atribute0 [0..10] delta 1 default 6
+int F5.Atribute3 [0..10] delta 1 default 6
+int F5.Atribute2 [0..10] delta 1 default 7
+int F5.Atribute4 [0..10] delta 1 default 7
+@ND int F5.Atribute1 [0..10] delta 1 default 2
+@ND int F5.Atribute0 [0..10] delta 1 default 3
+int F6.Atribute3 [0..10] delta 1 default 7
+int F6.Atribute2 [0..10] delta 1 default 7
+int F6.Atribute4 [0..10] delta 1 default 2
+int F6.Atribute1 [0..10] delta 1 default 1
+int F6.Atribute0 [0..10] delta 1 default 5
+int F7.Atribute3 [0..10] delta 1 default 8
+int F7.Atribute2 [0..10] delta 1 default 2
+int F7.Atribute4 [0..10] delta 1 default 2
+int F7.Atribute1 [0..10] delta 1 default 5
+int F7.Atribute0 [0..10] delta 1 default 1
+int F8.Atribute3 [0..10] delta 1 default 7
+int F8.Atribute2 [0..10] delta 1 default 7
+int F8.Atribute4 [0..10] delta 1 default 5
+@ND int F8.Atribute1 [0..10] delta 1 default 1
+int F8.Atribute0 [0..10] delta 1 default 2
+int F9.Atribute3 [0..10] delta 1 default 6
+int F9.Atribute2 [0..10] delta 1 default 3
+@ND int F9.Atribute4 [0..10] delta 1 default 6
+int F9.Atribute1 [0..10] delta 1 default 5
+int F9.Atribute0 [0..10] delta 1 default 10
+
+Constraints:
+F2 excludes F4

@@ -1,0 +1,51 @@
+%Relationships
+Sequence: Scene CapturingConditions SignalQuality;
+Scene: Background [Objects];
+Background: [1,1] {Urban CountrySide Dessert Jungle Forest};
+Objects: [Targets] [Distractors] [Ocultants];
+Targets: [1,2] {Humans Vehicles};
+Distractors: [1,4] {Butterflies Vegetation Birds Light};
+Ocultants: [1,2] {SolidOcultant TransparentOcultant};
+CapturingConditions: Camera CaptureEffects;
+Camera: [1,4] {Vibration FocalDistorsion PanDistorsion TiltMotion};
+CaptureEffects: [1,3] {Shadow GlobalLight HeatHaze};
+SignalQuality: Size [Distortions];
+Size: [1,1] {VGA HD FHD};
+Distortions: [1,4] {Compression  Blur Parasitics FrameInestability};
+
+%Attributes
+Humans.numberOf: Integer[0 to 100], 0, 0;
+Humans.motion: Integer[0 to 200], 0, 0;
+Humans.shadowed: Integer[0 to 100], 0, 0;
+Humans.distance: Integer[0 to 100], 0, 0;
+Vehicles.numberOf: Integer[0 to 100], 0, 0;
+Vehicles.motion: Integer[0 to 200], 0, 0;
+Vehicles.shadowed: Integer[0 to 100], 0, 0;
+Vehicles.distance: Integer[0 to 100], 0, 0;
+Vehicles.dust: Integer[0 to 100], 0, 0;
+Butterflies.level: Integer[0 to 100], 0, 0;
+Vegetation.level: Integer[0 to 100], 0, 0;
+Birds.level: Integer[0 to 100], 0, 0;
+SolidOcultant.level: Integer[0 to 100], 0, 0;
+TransparentOcultant.level: Integer[0 to 100], 0, 0;
+Vibration.level: Integer[0 to 100], 0, 0;
+FocalDistorsion.level: Integer[0 to 100], 0, 0;
+PanDistorsion.level: Integer[0 to 100], 0, 0;
+TiltMotion.level: Integer[0 to 100], 0, 0;
+Shadow.level: Integer[0 to 100], 0, 0;
+GlobalLight.level: Integer[0 to 100], 0, 0;
+HeatHaze.level: Integer[0 to 100], 0, 0;
+Size.width: Integer[0 to 2048], 0, 0;
+Size.height: Integer[0 to 1080], 0, 0;
+Compression.level: Integer[0 to 100], 0, 0; 
+Parasitics.level: Integer[0 to 100], 0, 0; 
+
+%Constraints
+Dessert IMPLIES Vehicles.dust > 50;
+Dessert IMPLIES Vegetation.level < 30;
+Urban IMPLIES Humans.numberOf > 50;
+Jungle IMPLIES Vegetation.level > 75;
+Forest IMPLIES Vegetation.level > 40;
+VGA IMPLIES Size.width == 640 AND Size.height ==480 ;
+HD IMPLIES Size.width == 1280 AND Size.height ==720 ;
+FHD IMPLIES Size.width == 1920 AND Size.height ==1080;

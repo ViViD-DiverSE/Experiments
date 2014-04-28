@@ -1,0 +1,1039 @@
+Relationships:
+root { 
+? F1
+F2 { 
+? F6
+F7 { 
+? F31 { 
+F46
+ }
+F32 { 
+F107
+? F108
+ oneOf {F109 { 
+F111
+F112 { 
+F136
+? F137
+F138
+? F139
+F140
+F141
+ oneOf {F142
+F143
+F144
+} }
+ oneOf {F113
+F114
+} }
+F110 { 
+F162
+? F163
+F164
+F165 { 
+? F169
+F170
+? F171
+? F172
+F173
+? F174
+ }
+F166
+ oneOf {F167
+F168
+} }
+} }
+? F33 { 
+F91
+? F92
+F93
+ oneOf {F94
+F95
+} }
+ }
+? F8 { 
+? F11 { 
+F14
+? F15 { 
+? F119
+? F120
+? F121
+F122
+ oneOf {F123
+F124
+}F125 { 
+? F128
+F129
+? F130 { 
+? F189
+F190
+? F191
+? F192
+ oneOf {F193
+F194
+}F195
+F196
+ }
+? F131
+F132
+F133
+F134
+F135
+ }
+F126
+F127
+ }
+F16 { 
+? F27
+? F28 { 
+ oneOf {F50
+F51
+} oneOf {F52
+F53 { 
+F145
+? F146
+? F147
+F148
+? F149
+F150
+F151
+F152
+F153
+ }
+F54
+}F55
+F56 { 
+F85
+F86 { 
+? F175
+F176
+? F177
+ }
+? F87
+? F88
+F89
+F90
+ }
+F57
+F58
+F59
+ }
+? F29 { 
+F44
+? F45 { 
+? F60
+? F61 { 
+F197
+ }
+ oneOf {F62
+F63 { 
+? F70
+F71
+F72 { 
+? F102
+F103
+ oneOf {F104 { 
+F154
+F155
+F156
+ }
+F105
+F106
+} }
+ oneOf {F73
+F74
+F75
+}F76
+F77
+F78
+ }
+} oneOf {F64
+F65 { 
+F157 { 
+ oneOf {F178
+F179 { 
+F199
+ }
+} }
+F158
+F159
+F160 { 
+F198
+ }
+F161
+ }
+}F66
+F67
+F68
+F69
+ }
+ }
+ }
+F17 { 
+F34
+? F35 { 
+F47
+F48 { 
+? F79 { 
+F99
+ oneOf {F100
+F101
+} }
+? F80
+ oneOf {F81 { 
+? F97 { 
+? F98
+ }
+ }
+F82 { 
+F115
+F116
+F117
+F118
+ }
+F83
+} }
+F49
+ }
+ }
+ oneOf {F18 { 
+F22 { 
+F36
+? F37
+ oneOf {F38
+F39
+F40
+}F41
+F42
+F43
+ }
+? F23 { 
+? F84
+ }
+ }
+F19
+F20
+F21 { 
+F30
+ }
+} }
+F12
+? F13
+ }
+? F9
+? F10
+ }
+F3
+F4 { 
+? F24 { 
+F180
+ oneOf {F181
+F182
+}F183
+F184
+F185
+F186
+F187
+F188
+ }
+F25
+? F26 { 
+F96
+ }
+ }
+F5
+ }
+
+Attributes:
+int F1.Atribute3 [0..10] delta 1 default 1
+int F1.Atribute2 [0..10] delta 1 default 2
+int F1.Atribute4 [0..10] delta 1 default 5
+int F1.Atribute1 [0..10] delta 1 default 5
+int F1.Atribute0 [0..10] delta 1 default 9
+int F6.Atribute3 [0..10] delta 1 default 6
+int F6.Atribute2 [0..10] delta 1 default 8
+int F6.Atribute4 [0..10] delta 1 default 1
+int F6.Atribute1 [0..10] delta 1 default 4
+int F6.Atribute0 [0..10] delta 1 default 9
+int F46.Atribute3 [0..10] delta 1 default 3
+int F46.Atribute2 [0..10] delta 1 default 9
+int F46.Atribute4 [0..10] delta 1 default 0
+int F46.Atribute1 [0..10] delta 1 default 5
+int F46.Atribute0 [0..10] delta 1 default 0
+int F107.Atribute3 [0..10] delta 1 default 3
+int F107.Atribute2 [0..10] delta 1 default 8
+int F107.Atribute4 [0..10] delta 1 default 1
+int F107.Atribute1 [0..10] delta 1 default 5
+int F107.Atribute0 [0..10] delta 1 default 7
+int F108.Atribute3 [0..10] delta 1 default 6
+int F108.Atribute2 [0..10] delta 1 default 8
+int F108.Atribute4 [0..10] delta 1 default 5
+int F108.Atribute1 [0..10] delta 1 default 2
+int F108.Atribute0 [0..10] delta 1 default 2
+int F111.Atribute3 [0..10] delta 1 default 3
+int F111.Atribute2 [0..10] delta 1 default 9
+int F111.Atribute4 [0..10] delta 1 default 0
+int F111.Atribute1 [0..10] delta 1 default 9
+int F111.Atribute0 [0..10] delta 1 default 8
+int F136.Atribute3 [0..10] delta 1 default 3
+int F136.Atribute2 [0..10] delta 1 default 1
+int F136.Atribute4 [0..10] delta 1 default 2
+int F136.Atribute1 [0..10] delta 1 default 0
+int F136.Atribute0 [0..10] delta 1 default 2
+int F137.Atribute3 [0..10] delta 1 default 1
+int F137.Atribute2 [0..10] delta 1 default 4
+int F137.Atribute4 [0..10] delta 1 default 1
+int F137.Atribute1 [0..10] delta 1 default 4
+int F137.Atribute0 [0..10] delta 1 default 3
+int F138.Atribute3 [0..10] delta 1 default 3
+int F138.Atribute2 [0..10] delta 1 default 8
+int F138.Atribute4 [0..10] delta 1 default 9
+int F138.Atribute1 [0..10] delta 1 default 6
+int F138.Atribute0 [0..10] delta 1 default 7
+int F139.Atribute3 [0..10] delta 1 default 1
+int F139.Atribute2 [0..10] delta 1 default 7
+int F139.Atribute4 [0..10] delta 1 default 5
+int F139.Atribute1 [0..10] delta 1 default 8
+int F139.Atribute0 [0..10] delta 1 default 0
+int F140.Atribute3 [0..10] delta 1 default 10
+int F140.Atribute2 [0..10] delta 1 default 8
+int F140.Atribute4 [0..10] delta 1 default 2
+int F140.Atribute1 [0..10] delta 1 default 6
+int F140.Atribute0 [0..10] delta 1 default 7
+int F141.Atribute3 [0..10] delta 1 default 7
+int F141.Atribute2 [0..10] delta 1 default 7
+int F141.Atribute4 [0..10] delta 1 default 0
+int F141.Atribute1 [0..10] delta 1 default 8
+int F141.Atribute0 [0..10] delta 1 default 7
+int F142.Atribute3 [0..10] delta 1 default 4
+int F142.Atribute2 [0..10] delta 1 default 9
+int F142.Atribute4 [0..10] delta 1 default 8
+int F142.Atribute1 [0..10] delta 1 default 3
+int F142.Atribute0 [0..10] delta 1 default 7
+int F143.Atribute3 [0..10] delta 1 default 7
+int F143.Atribute2 [0..10] delta 1 default 1
+int F143.Atribute4 [0..10] delta 1 default 4
+int F143.Atribute1 [0..10] delta 1 default 6
+int F143.Atribute0 [0..10] delta 1 default 1
+int F144.Atribute3 [0..10] delta 1 default 9
+int F144.Atribute2 [0..10] delta 1 default 5
+int F144.Atribute4 [0..10] delta 1 default 4
+int F144.Atribute1 [0..10] delta 1 default 0
+int F144.Atribute0 [0..10] delta 1 default 8
+int F113.Atribute3 [0..10] delta 1 default 0
+int F113.Atribute2 [0..10] delta 1 default 3
+int F113.Atribute4 [0..10] delta 1 default 3
+int F113.Atribute1 [0..10] delta 1 default 8
+int F113.Atribute0 [0..10] delta 1 default 3
+int F114.Atribute3 [0..10] delta 1 default 5
+int F114.Atribute2 [0..10] delta 1 default 5
+int F114.Atribute4 [0..10] delta 1 default 2
+int F114.Atribute1 [0..10] delta 1 default 2
+int F114.Atribute0 [0..10] delta 1 default 1
+int F162.Atribute3 [0..10] delta 1 default 3
+int F162.Atribute2 [0..10] delta 1 default 2
+int F162.Atribute4 [0..10] delta 1 default 2
+int F162.Atribute1 [0..10] delta 1 default 7
+int F162.Atribute0 [0..10] delta 1 default 6
+int F163.Atribute3 [0..10] delta 1 default 3
+int F163.Atribute2 [0..10] delta 1 default 6
+int F163.Atribute4 [0..10] delta 1 default 5
+int F163.Atribute1 [0..10] delta 1 default 3
+int F163.Atribute0 [0..10] delta 1 default 8
+int F164.Atribute3 [0..10] delta 1 default 7
+int F164.Atribute2 [0..10] delta 1 default 8
+int F164.Atribute4 [0..10] delta 1 default 3
+int F164.Atribute1 [0..10] delta 1 default 6
+int F164.Atribute0 [0..10] delta 1 default 6
+int F169.Atribute3 [0..10] delta 1 default 2
+int F169.Atribute2 [0..10] delta 1 default 9
+int F169.Atribute4 [0..10] delta 1 default 4
+int F169.Atribute1 [0..10] delta 1 default 7
+int F169.Atribute0 [0..10] delta 1 default 6
+int F170.Atribute3 [0..10] delta 1 default 2
+int F170.Atribute2 [0..10] delta 1 default 5
+int F170.Atribute4 [0..10] delta 1 default 7
+int F170.Atribute1 [0..10] delta 1 default 2
+int F170.Atribute0 [0..10] delta 1 default 6
+int F171.Atribute3 [0..10] delta 1 default 1
+int F171.Atribute2 [0..10] delta 1 default 8
+int F171.Atribute4 [0..10] delta 1 default 5
+int F171.Atribute1 [0..10] delta 1 default 7
+int F171.Atribute0 [0..10] delta 1 default 3
+int F172.Atribute3 [0..10] delta 1 default 2
+int F172.Atribute2 [0..10] delta 1 default 8
+int F172.Atribute4 [0..10] delta 1 default 8
+int F172.Atribute1 [0..10] delta 1 default 7
+int F172.Atribute0 [0..10] delta 1 default 8
+int F173.Atribute3 [0..10] delta 1 default 9
+int F173.Atribute2 [0..10] delta 1 default 6
+int F173.Atribute4 [0..10] delta 1 default 2
+int F173.Atribute1 [0..10] delta 1 default 2
+int F173.Atribute0 [0..10] delta 1 default 2
+int F174.Atribute3 [0..10] delta 1 default 6
+int F174.Atribute2 [0..10] delta 1 default 2
+int F174.Atribute4 [0..10] delta 1 default 2
+int F174.Atribute1 [0..10] delta 1 default 6
+int F174.Atribute0 [0..10] delta 1 default 4
+int F166.Atribute3 [0..10] delta 1 default 7
+int F166.Atribute2 [0..10] delta 1 default 1
+int F166.Atribute4 [0..10] delta 1 default 6
+int F166.Atribute1 [0..10] delta 1 default 3
+int F166.Atribute0 [0..10] delta 1 default 10
+int F167.Atribute3 [0..10] delta 1 default 1
+int F167.Atribute2 [0..10] delta 1 default 2
+int F167.Atribute4 [0..10] delta 1 default 5
+int F167.Atribute1 [0..10] delta 1 default 5
+int F167.Atribute0 [0..10] delta 1 default 2
+int F168.Atribute3 [0..10] delta 1 default 5
+int F168.Atribute2 [0..10] delta 1 default 10
+int F168.Atribute4 [0..10] delta 1 default 3
+int F168.Atribute1 [0..10] delta 1 default 6
+int F168.Atribute0 [0..10] delta 1 default 2
+int F91.Atribute3 [0..10] delta 1 default 7
+int F91.Atribute2 [0..10] delta 1 default 1
+int F91.Atribute4 [0..10] delta 1 default 1
+int F91.Atribute1 [0..10] delta 1 default 3
+int F91.Atribute0 [0..10] delta 1 default 6
+int F92.Atribute3 [0..10] delta 1 default 5
+int F92.Atribute2 [0..10] delta 1 default 4
+int F92.Atribute4 [0..10] delta 1 default 3
+int F92.Atribute1 [0..10] delta 1 default 0
+int F92.Atribute0 [0..10] delta 1 default 6
+int F93.Atribute3 [0..10] delta 1 default 3
+int F93.Atribute2 [0..10] delta 1 default 9
+int F93.Atribute4 [0..10] delta 1 default 3
+int F93.Atribute1 [0..10] delta 1 default 6
+int F93.Atribute0 [0..10] delta 1 default 5
+int F94.Atribute3 [0..10] delta 1 default 4
+int F94.Atribute2 [0..10] delta 1 default 7
+int F94.Atribute4 [0..10] delta 1 default 8
+int F94.Atribute1 [0..10] delta 1 default 4
+int F94.Atribute0 [0..10] delta 1 default 6
+int F95.Atribute3 [0..10] delta 1 default 2
+int F95.Atribute2 [0..10] delta 1 default 2
+int F95.Atribute4 [0..10] delta 1 default 2
+int F95.Atribute1 [0..10] delta 1 default 10
+int F95.Atribute0 [0..10] delta 1 default 4
+int F14.Atribute3 [0..10] delta 1 default 6
+int F14.Atribute2 [0..10] delta 1 default 3
+int F14.Atribute4 [0..10] delta 1 default 1
+int F14.Atribute1 [0..10] delta 1 default 3
+int F14.Atribute0 [0..10] delta 1 default 7
+int F119.Atribute3 [0..10] delta 1 default 0
+int F119.Atribute2 [0..10] delta 1 default 8
+int F119.Atribute4 [0..10] delta 1 default 2
+int F119.Atribute1 [0..10] delta 1 default 2
+int F119.Atribute0 [0..10] delta 1 default 8
+int F120.Atribute3 [0..10] delta 1 default 6
+int F120.Atribute2 [0..10] delta 1 default 7
+int F120.Atribute4 [0..10] delta 1 default 8
+int F120.Atribute1 [0..10] delta 1 default 4
+int F120.Atribute0 [0..10] delta 1 default 8
+int F121.Atribute3 [0..10] delta 1 default 10
+int F121.Atribute2 [0..10] delta 1 default 8
+int F121.Atribute4 [0..10] delta 1 default 6
+int F121.Atribute1 [0..10] delta 1 default 8
+int F121.Atribute0 [0..10] delta 1 default 3
+int F122.Atribute3 [0..10] delta 1 default 2
+int F122.Atribute2 [0..10] delta 1 default 6
+int F122.Atribute4 [0..10] delta 1 default 8
+int F122.Atribute1 [0..10] delta 1 default 2
+int F122.Atribute0 [0..10] delta 1 default 10
+int F123.Atribute3 [0..10] delta 1 default 8
+int F123.Atribute2 [0..10] delta 1 default 2
+int F123.Atribute4 [0..10] delta 1 default 0
+int F123.Atribute1 [0..10] delta 1 default 2
+int F123.Atribute0 [0..10] delta 1 default 1
+int F124.Atribute3 [0..10] delta 1 default 7
+int F124.Atribute2 [0..10] delta 1 default 2
+int F124.Atribute4 [0..10] delta 1 default 6
+int F124.Atribute1 [0..10] delta 1 default 10
+int F124.Atribute0 [0..10] delta 1 default 9
+int F128.Atribute3 [0..10] delta 1 default 7
+int F128.Atribute2 [0..10] delta 1 default 8
+int F128.Atribute4 [0..10] delta 1 default 9
+int F128.Atribute1 [0..10] delta 1 default 4
+int F128.Atribute0 [0..10] delta 1 default 4
+int F129.Atribute3 [0..10] delta 1 default 8
+int F129.Atribute2 [0..10] delta 1 default 3
+int F129.Atribute4 [0..10] delta 1 default 2
+int F129.Atribute1 [0..10] delta 1 default 1
+int F129.Atribute0 [0..10] delta 1 default 1
+int F189.Atribute3 [0..10] delta 1 default 5
+int F189.Atribute2 [0..10] delta 1 default 7
+int F189.Atribute4 [0..10] delta 1 default 6
+int F189.Atribute1 [0..10] delta 1 default 6
+int F189.Atribute0 [0..10] delta 1 default 8
+int F190.Atribute3 [0..10] delta 1 default 10
+int F190.Atribute2 [0..10] delta 1 default 7
+int F190.Atribute4 [0..10] delta 1 default 2
+int F190.Atribute1 [0..10] delta 1 default 5
+int F190.Atribute0 [0..10] delta 1 default 1
+int F191.Atribute3 [0..10] delta 1 default 3
+int F191.Atribute2 [0..10] delta 1 default 7
+int F191.Atribute4 [0..10] delta 1 default 6
+int F191.Atribute1 [0..10] delta 1 default 2
+int F191.Atribute0 [0..10] delta 1 default 7
+int F192.Atribute3 [0..10] delta 1 default 3
+int F192.Atribute2 [0..10] delta 1 default 8
+int F192.Atribute4 [0..10] delta 1 default 0
+int F192.Atribute1 [0..10] delta 1 default 8
+int F192.Atribute0 [0..10] delta 1 default 6
+int F193.Atribute3 [0..10] delta 1 default 7
+int F193.Atribute2 [0..10] delta 1 default 3
+int F193.Atribute4 [0..10] delta 1 default 2
+int F193.Atribute1 [0..10] delta 1 default 10
+int F193.Atribute0 [0..10] delta 1 default 9
+int F194.Atribute3 [0..10] delta 1 default 9
+int F194.Atribute2 [0..10] delta 1 default 10
+int F194.Atribute4 [0..10] delta 1 default 8
+int F194.Atribute1 [0..10] delta 1 default 7
+int F194.Atribute0 [0..10] delta 1 default 5
+int F195.Atribute3 [0..10] delta 1 default 3
+int F195.Atribute2 [0..10] delta 1 default 4
+int F195.Atribute4 [0..10] delta 1 default 3
+int F195.Atribute1 [0..10] delta 1 default 3
+int F195.Atribute0 [0..10] delta 1 default 9
+int F196.Atribute3 [0..10] delta 1 default 7
+int F196.Atribute2 [0..10] delta 1 default 9
+int F196.Atribute4 [0..10] delta 1 default 4
+int F196.Atribute1 [0..10] delta 1 default 1
+int F196.Atribute0 [0..10] delta 1 default 4
+int F131.Atribute3 [0..10] delta 1 default 8
+int F131.Atribute2 [0..10] delta 1 default 9
+int F131.Atribute4 [0..10] delta 1 default 7
+int F131.Atribute1 [0..10] delta 1 default 8
+int F131.Atribute0 [0..10] delta 1 default 9
+int F132.Atribute3 [0..10] delta 1 default 1
+int F132.Atribute2 [0..10] delta 1 default 3
+int F132.Atribute4 [0..10] delta 1 default 9
+int F132.Atribute1 [0..10] delta 1 default 0
+int F132.Atribute0 [0..10] delta 1 default 3
+int F133.Atribute3 [0..10] delta 1 default 1
+int F133.Atribute2 [0..10] delta 1 default 5
+int F133.Atribute4 [0..10] delta 1 default 0
+int F133.Atribute1 [0..10] delta 1 default 1
+int F133.Atribute0 [0..10] delta 1 default 8
+int F134.Atribute3 [0..10] delta 1 default 3
+int F134.Atribute2 [0..10] delta 1 default 0
+int F134.Atribute4 [0..10] delta 1 default 1
+int F134.Atribute1 [0..10] delta 1 default 8
+int F134.Atribute0 [0..10] delta 1 default 10
+int F135.Atribute3 [0..10] delta 1 default 9
+int F135.Atribute2 [0..10] delta 1 default 1
+int F135.Atribute4 [0..10] delta 1 default 4
+int F135.Atribute1 [0..10] delta 1 default 3
+int F135.Atribute0 [0..10] delta 1 default 7
+int F126.Atribute3 [0..10] delta 1 default 2
+int F126.Atribute2 [0..10] delta 1 default 7
+int F126.Atribute4 [0..10] delta 1 default 8
+int F126.Atribute1 [0..10] delta 1 default 4
+int F126.Atribute0 [0..10] delta 1 default 4
+int F127.Atribute3 [0..10] delta 1 default 7
+int F127.Atribute2 [0..10] delta 1 default 1
+int F127.Atribute4 [0..10] delta 1 default 4
+int F127.Atribute1 [0..10] delta 1 default 3
+int F127.Atribute0 [0..10] delta 1 default 4
+int F27.Atribute3 [0..10] delta 1 default 8
+int F27.Atribute2 [0..10] delta 1 default 7
+int F27.Atribute4 [0..10] delta 1 default 5
+int F27.Atribute1 [0..10] delta 1 default 5
+int F27.Atribute0 [0..10] delta 1 default 6
+int F50.Atribute3 [0..10] delta 1 default 0
+int F50.Atribute2 [0..10] delta 1 default 9
+int F50.Atribute4 [0..10] delta 1 default 5
+int F50.Atribute1 [0..10] delta 1 default 9
+int F50.Atribute0 [0..10] delta 1 default 1
+int F51.Atribute3 [0..10] delta 1 default 8
+int F51.Atribute2 [0..10] delta 1 default 5
+int F51.Atribute4 [0..10] delta 1 default 4
+int F51.Atribute1 [0..10] delta 1 default 8
+int F51.Atribute0 [0..10] delta 1 default 3
+int F52.Atribute3 [0..10] delta 1 default 7
+int F52.Atribute2 [0..10] delta 1 default 9
+int F52.Atribute4 [0..10] delta 1 default 5
+int F52.Atribute1 [0..10] delta 1 default 0
+int F52.Atribute0 [0..10] delta 1 default 6
+int F145.Atribute3 [0..10] delta 1 default 8
+int F145.Atribute2 [0..10] delta 1 default 4
+int F145.Atribute4 [0..10] delta 1 default 4
+int F145.Atribute1 [0..10] delta 1 default 1
+int F145.Atribute0 [0..10] delta 1 default 3
+int F146.Atribute3 [0..10] delta 1 default 2
+int F146.Atribute2 [0..10] delta 1 default 6
+int F146.Atribute4 [0..10] delta 1 default 7
+int F146.Atribute1 [0..10] delta 1 default 3
+int F146.Atribute0 [0..10] delta 1 default 5
+int F147.Atribute3 [0..10] delta 1 default 0
+int F147.Atribute2 [0..10] delta 1 default 1
+int F147.Atribute4 [0..10] delta 1 default 5
+int F147.Atribute1 [0..10] delta 1 default 2
+int F147.Atribute0 [0..10] delta 1 default 4
+int F148.Atribute3 [0..10] delta 1 default 0
+int F148.Atribute2 [0..10] delta 1 default 6
+int F148.Atribute4 [0..10] delta 1 default 8
+int F148.Atribute1 [0..10] delta 1 default 8
+int F148.Atribute0 [0..10] delta 1 default 5
+int F149.Atribute3 [0..10] delta 1 default 1
+int F149.Atribute2 [0..10] delta 1 default 3
+int F149.Atribute4 [0..10] delta 1 default 6
+int F149.Atribute1 [0..10] delta 1 default 6
+int F149.Atribute0 [0..10] delta 1 default 1
+int F150.Atribute3 [0..10] delta 1 default 4
+int F150.Atribute2 [0..10] delta 1 default 9
+int F150.Atribute4 [0..10] delta 1 default 2
+int F150.Atribute1 [0..10] delta 1 default 0
+int F150.Atribute0 [0..10] delta 1 default 3
+int F151.Atribute3 [0..10] delta 1 default 4
+int F151.Atribute2 [0..10] delta 1 default 8
+int F151.Atribute4 [0..10] delta 1 default 8
+int F151.Atribute1 [0..10] delta 1 default 8
+int F151.Atribute0 [0..10] delta 1 default 2
+int F152.Atribute3 [0..10] delta 1 default 1
+int F152.Atribute2 [0..10] delta 1 default 10
+int F152.Atribute4 [0..10] delta 1 default 6
+int F152.Atribute1 [0..10] delta 1 default 8
+int F152.Atribute0 [0..10] delta 1 default 2
+int F153.Atribute3 [0..10] delta 1 default 6
+int F153.Atribute2 [0..10] delta 1 default 1
+int F153.Atribute4 [0..10] delta 1 default 10
+int F153.Atribute1 [0..10] delta 1 default 2
+int F153.Atribute0 [0..10] delta 1 default 1
+int F54.Atribute3 [0..10] delta 1 default 9
+int F54.Atribute2 [0..10] delta 1 default 7
+int F54.Atribute4 [0..10] delta 1 default 3
+int F54.Atribute1 [0..10] delta 1 default 8
+int F54.Atribute0 [0..10] delta 1 default 8
+int F55.Atribute3 [0..10] delta 1 default 8
+int F55.Atribute2 [0..10] delta 1 default 5
+int F55.Atribute4 [0..10] delta 1 default 1
+int F55.Atribute1 [0..10] delta 1 default 0
+int F55.Atribute0 [0..10] delta 1 default 6
+int F85.Atribute3 [0..10] delta 1 default 9
+int F85.Atribute2 [0..10] delta 1 default 0
+int F85.Atribute4 [0..10] delta 1 default 10
+int F85.Atribute1 [0..10] delta 1 default 8
+int F85.Atribute0 [0..10] delta 1 default 6
+int F175.Atribute3 [0..10] delta 1 default 1
+int F175.Atribute2 [0..10] delta 1 default 0
+int F175.Atribute4 [0..10] delta 1 default 2
+int F175.Atribute1 [0..10] delta 1 default 9
+int F175.Atribute0 [0..10] delta 1 default 10
+int F176.Atribute3 [0..10] delta 1 default 4
+int F176.Atribute2 [0..10] delta 1 default 0
+int F176.Atribute4 [0..10] delta 1 default 6
+int F176.Atribute1 [0..10] delta 1 default 0
+int F176.Atribute0 [0..10] delta 1 default 6
+int F177.Atribute3 [0..10] delta 1 default 6
+int F177.Atribute2 [0..10] delta 1 default 1
+int F177.Atribute4 [0..10] delta 1 default 3
+int F177.Atribute1 [0..10] delta 1 default 8
+int F177.Atribute0 [0..10] delta 1 default 3
+int F87.Atribute3 [0..10] delta 1 default 4
+int F87.Atribute2 [0..10] delta 1 default 4
+int F87.Atribute4 [0..10] delta 1 default 6
+int F87.Atribute1 [0..10] delta 1 default 7
+int F87.Atribute0 [0..10] delta 1 default 8
+int F88.Atribute3 [0..10] delta 1 default 8
+int F88.Atribute2 [0..10] delta 1 default 2
+int F88.Atribute4 [0..10] delta 1 default 0
+int F88.Atribute1 [0..10] delta 1 default 1
+int F88.Atribute0 [0..10] delta 1 default 6
+int F89.Atribute3 [0..10] delta 1 default 6
+int F89.Atribute2 [0..10] delta 1 default 8
+int F89.Atribute4 [0..10] delta 1 default 5
+int F89.Atribute1 [0..10] delta 1 default 8
+int F89.Atribute0 [0..10] delta 1 default 6
+int F90.Atribute3 [0..10] delta 1 default 1
+int F90.Atribute2 [0..10] delta 1 default 6
+int F90.Atribute4 [0..10] delta 1 default 9
+int F90.Atribute1 [0..10] delta 1 default 1
+int F90.Atribute0 [0..10] delta 1 default 8
+int F57.Atribute3 [0..10] delta 1 default 1
+int F57.Atribute2 [0..10] delta 1 default 4
+int F57.Atribute4 [0..10] delta 1 default 3
+int F57.Atribute1 [0..10] delta 1 default 1
+int F57.Atribute0 [0..10] delta 1 default 1
+int F58.Atribute3 [0..10] delta 1 default 3
+int F58.Atribute2 [0..10] delta 1 default 7
+int F58.Atribute4 [0..10] delta 1 default 2
+int F58.Atribute1 [0..10] delta 1 default 4
+int F58.Atribute0 [0..10] delta 1 default 8
+int F59.Atribute3 [0..10] delta 1 default 1
+int F59.Atribute2 [0..10] delta 1 default 8
+int F59.Atribute4 [0..10] delta 1 default 9
+int F59.Atribute1 [0..10] delta 1 default 1
+int F59.Atribute0 [0..10] delta 1 default 7
+int F44.Atribute3 [0..10] delta 1 default 5
+int F44.Atribute2 [0..10] delta 1 default 1
+int F44.Atribute4 [0..10] delta 1 default 2
+int F44.Atribute1 [0..10] delta 1 default 9
+int F44.Atribute0 [0..10] delta 1 default 1
+int F60.Atribute3 [0..10] delta 1 default 8
+int F60.Atribute2 [0..10] delta 1 default 6
+int F60.Atribute4 [0..10] delta 1 default 4
+int F60.Atribute1 [0..10] delta 1 default 3
+int F60.Atribute0 [0..10] delta 1 default 9
+int F197.Atribute3 [0..10] delta 1 default 6
+int F197.Atribute2 [0..10] delta 1 default 0
+int F197.Atribute4 [0..10] delta 1 default 2
+int F197.Atribute1 [0..10] delta 1 default 6
+int F197.Atribute0 [0..10] delta 1 default 1
+int F62.Atribute3 [0..10] delta 1 default 3
+int F62.Atribute2 [0..10] delta 1 default 0
+int F62.Atribute4 [0..10] delta 1 default 3
+int F62.Atribute1 [0..10] delta 1 default 10
+int F62.Atribute0 [0..10] delta 1 default 6
+int F70.Atribute3 [0..10] delta 1 default 6
+int F70.Atribute2 [0..10] delta 1 default 1
+int F70.Atribute4 [0..10] delta 1 default 9
+int F70.Atribute1 [0..10] delta 1 default 4
+int F70.Atribute0 [0..10] delta 1 default 2
+int F71.Atribute3 [0..10] delta 1 default 10
+int F71.Atribute2 [0..10] delta 1 default 5
+int F71.Atribute4 [0..10] delta 1 default 4
+int F71.Atribute1 [0..10] delta 1 default 2
+int F71.Atribute0 [0..10] delta 1 default 8
+int F102.Atribute3 [0..10] delta 1 default 6
+int F102.Atribute2 [0..10] delta 1 default 8
+int F102.Atribute4 [0..10] delta 1 default 2
+int F102.Atribute1 [0..10] delta 1 default 5
+int F102.Atribute0 [0..10] delta 1 default 4
+int F103.Atribute3 [0..10] delta 1 default 1
+int F103.Atribute2 [0..10] delta 1 default 1
+int F103.Atribute4 [0..10] delta 1 default 3
+int F103.Atribute1 [0..10] delta 1 default 4
+int F103.Atribute0 [0..10] delta 1 default 4
+int F154.Atribute3 [0..10] delta 1 default 10
+int F154.Atribute2 [0..10] delta 1 default 5
+int F154.Atribute4 [0..10] delta 1 default 3
+int F154.Atribute1 [0..10] delta 1 default 4
+int F154.Atribute0 [0..10] delta 1 default 6
+int F155.Atribute3 [0..10] delta 1 default 2
+int F155.Atribute2 [0..10] delta 1 default 8
+int F155.Atribute4 [0..10] delta 1 default 1
+int F155.Atribute1 [0..10] delta 1 default 7
+int F155.Atribute0 [0..10] delta 1 default 3
+int F156.Atribute3 [0..10] delta 1 default 2
+int F156.Atribute2 [0..10] delta 1 default 7
+int F156.Atribute4 [0..10] delta 1 default 8
+int F156.Atribute1 [0..10] delta 1 default 1
+int F156.Atribute0 [0..10] delta 1 default 6
+int F105.Atribute3 [0..10] delta 1 default 7
+int F105.Atribute2 [0..10] delta 1 default 3
+int F105.Atribute4 [0..10] delta 1 default 10
+int F105.Atribute1 [0..10] delta 1 default 6
+int F105.Atribute0 [0..10] delta 1 default 2
+int F106.Atribute3 [0..10] delta 1 default 7
+int F106.Atribute2 [0..10] delta 1 default 1
+int F106.Atribute4 [0..10] delta 1 default 1
+int F106.Atribute1 [0..10] delta 1 default 1
+int F106.Atribute0 [0..10] delta 1 default 8
+int F73.Atribute3 [0..10] delta 1 default 8
+int F73.Atribute2 [0..10] delta 1 default 2
+int F73.Atribute4 [0..10] delta 1 default 9
+int F73.Atribute1 [0..10] delta 1 default 4
+int F73.Atribute0 [0..10] delta 1 default 1
+int F74.Atribute3 [0..10] delta 1 default 2
+int F74.Atribute2 [0..10] delta 1 default 1
+int F74.Atribute4 [0..10] delta 1 default 2
+int F74.Atribute1 [0..10] delta 1 default 3
+int F74.Atribute0 [0..10] delta 1 default 4
+int F75.Atribute3 [0..10] delta 1 default 5
+int F75.Atribute2 [0..10] delta 1 default 5
+int F75.Atribute4 [0..10] delta 1 default 6
+int F75.Atribute1 [0..10] delta 1 default 8
+int F75.Atribute0 [0..10] delta 1 default 3
+int F76.Atribute3 [0..10] delta 1 default 5
+int F76.Atribute2 [0..10] delta 1 default 8
+int F76.Atribute4 [0..10] delta 1 default 1
+int F76.Atribute1 [0..10] delta 1 default 1
+int F76.Atribute0 [0..10] delta 1 default 2
+int F77.Atribute3 [0..10] delta 1 default 7
+int F77.Atribute2 [0..10] delta 1 default 5
+int F77.Atribute4 [0..10] delta 1 default 8
+int F77.Atribute1 [0..10] delta 1 default 9
+int F77.Atribute0 [0..10] delta 1 default 8
+int F78.Atribute3 [0..10] delta 1 default 3
+int F78.Atribute2 [0..10] delta 1 default 1
+int F78.Atribute4 [0..10] delta 1 default 5
+int F78.Atribute1 [0..10] delta 1 default 4
+int F78.Atribute0 [0..10] delta 1 default 5
+int F64.Atribute3 [0..10] delta 1 default 2
+int F64.Atribute2 [0..10] delta 1 default 4
+int F64.Atribute4 [0..10] delta 1 default 8
+int F64.Atribute1 [0..10] delta 1 default 8
+int F64.Atribute0 [0..10] delta 1 default 0
+int F178.Atribute3 [0..10] delta 1 default 6
+int F178.Atribute2 [0..10] delta 1 default 10
+int F178.Atribute4 [0..10] delta 1 default 1
+int F178.Atribute1 [0..10] delta 1 default 8
+int F178.Atribute0 [0..10] delta 1 default 7
+int F199.Atribute3 [0..10] delta 1 default 4
+int F199.Atribute2 [0..10] delta 1 default 6
+int F199.Atribute4 [0..10] delta 1 default 3
+int F199.Atribute1 [0..10] delta 1 default 6
+int F199.Atribute0 [0..10] delta 1 default 9
+int F158.Atribute3 [0..10] delta 1 default 9
+int F158.Atribute2 [0..10] delta 1 default 7
+int F158.Atribute4 [0..10] delta 1 default 4
+int F158.Atribute1 [0..10] delta 1 default 2
+int F158.Atribute0 [0..10] delta 1 default 7
+int F159.Atribute3 [0..10] delta 1 default 7
+int F159.Atribute2 [0..10] delta 1 default 1
+int F159.Atribute4 [0..10] delta 1 default 6
+int F159.Atribute1 [0..10] delta 1 default 7
+int F159.Atribute0 [0..10] delta 1 default 4
+int F198.Atribute3 [0..10] delta 1 default 3
+int F198.Atribute2 [0..10] delta 1 default 2
+int F198.Atribute4 [0..10] delta 1 default 5
+int F198.Atribute1 [0..10] delta 1 default 5
+int F198.Atribute0 [0..10] delta 1 default 8
+int F161.Atribute3 [0..10] delta 1 default 3
+int F161.Atribute2 [0..10] delta 1 default 7
+int F161.Atribute4 [0..10] delta 1 default 9
+int F161.Atribute1 [0..10] delta 1 default 4
+int F161.Atribute0 [0..10] delta 1 default 7
+int F66.Atribute3 [0..10] delta 1 default 7
+int F66.Atribute2 [0..10] delta 1 default 6
+int F66.Atribute4 [0..10] delta 1 default 7
+int F66.Atribute1 [0..10] delta 1 default 10
+int F66.Atribute0 [0..10] delta 1 default 8
+int F67.Atribute3 [0..10] delta 1 default 0
+int F67.Atribute2 [0..10] delta 1 default 7
+int F67.Atribute4 [0..10] delta 1 default 9
+int F67.Atribute1 [0..10] delta 1 default 2
+int F67.Atribute0 [0..10] delta 1 default 3
+int F68.Atribute3 [0..10] delta 1 default 5
+int F68.Atribute2 [0..10] delta 1 default 10
+int F68.Atribute4 [0..10] delta 1 default 4
+int F68.Atribute1 [0..10] delta 1 default 8
+int F68.Atribute0 [0..10] delta 1 default 6
+int F69.Atribute3 [0..10] delta 1 default 4
+int F69.Atribute2 [0..10] delta 1 default 2
+int F69.Atribute4 [0..10] delta 1 default 7
+int F69.Atribute1 [0..10] delta 1 default 3
+int F69.Atribute0 [0..10] delta 1 default 8
+int F34.Atribute3 [0..10] delta 1 default 3
+int F34.Atribute2 [0..10] delta 1 default 8
+int F34.Atribute4 [0..10] delta 1 default 1
+int F34.Atribute1 [0..10] delta 1 default 10
+int F34.Atribute0 [0..10] delta 1 default 5
+int F47.Atribute3 [0..10] delta 1 default 8
+int F47.Atribute2 [0..10] delta 1 default 2
+int F47.Atribute4 [0..10] delta 1 default 2
+int F47.Atribute1 [0..10] delta 1 default 5
+int F47.Atribute0 [0..10] delta 1 default 9
+int F99.Atribute3 [0..10] delta 1 default 10
+int F99.Atribute2 [0..10] delta 1 default 2
+int F99.Atribute4 [0..10] delta 1 default 7
+int F99.Atribute1 [0..10] delta 1 default 7
+int F99.Atribute0 [0..10] delta 1 default 9
+int F100.Atribute3 [0..10] delta 1 default 5
+int F100.Atribute2 [0..10] delta 1 default 4
+int F100.Atribute4 [0..10] delta 1 default 4
+int F100.Atribute1 [0..10] delta 1 default 0
+int F100.Atribute0 [0..10] delta 1 default 9
+int F101.Atribute3 [0..10] delta 1 default 8
+int F101.Atribute2 [0..10] delta 1 default 3
+int F101.Atribute4 [0..10] delta 1 default 7
+int F101.Atribute1 [0..10] delta 1 default 6
+int F101.Atribute0 [0..10] delta 1 default 8
+int F80.Atribute3 [0..10] delta 1 default 9
+int F80.Atribute2 [0..10] delta 1 default 6
+int F80.Atribute4 [0..10] delta 1 default 8
+int F80.Atribute1 [0..10] delta 1 default 6
+int F80.Atribute0 [0..10] delta 1 default 1
+int F98.Atribute3 [0..10] delta 1 default 4
+int F98.Atribute2 [0..10] delta 1 default 9
+int F98.Atribute4 [0..10] delta 1 default 10
+int F98.Atribute1 [0..10] delta 1 default 2
+int F98.Atribute0 [0..10] delta 1 default 1
+int F115.Atribute3 [0..10] delta 1 default 5
+int F115.Atribute2 [0..10] delta 1 default 2
+int F115.Atribute4 [0..10] delta 1 default 5
+int F115.Atribute1 [0..10] delta 1 default 1
+int F115.Atribute0 [0..10] delta 1 default 5
+int F116.Atribute3 [0..10] delta 1 default 3
+int F116.Atribute2 [0..10] delta 1 default 9
+int F116.Atribute4 [0..10] delta 1 default 0
+int F116.Atribute1 [0..10] delta 1 default 9
+int F116.Atribute0 [0..10] delta 1 default 2
+int F117.Atribute3 [0..10] delta 1 default 7
+int F117.Atribute2 [0..10] delta 1 default 0
+int F117.Atribute4 [0..10] delta 1 default 9
+int F117.Atribute1 [0..10] delta 1 default 1
+int F117.Atribute0 [0..10] delta 1 default 5
+int F118.Atribute3 [0..10] delta 1 default 5
+int F118.Atribute2 [0..10] delta 1 default 3
+int F118.Atribute4 [0..10] delta 1 default 6
+int F118.Atribute1 [0..10] delta 1 default 9
+int F118.Atribute0 [0..10] delta 1 default 0
+int F83.Atribute3 [0..10] delta 1 default 3
+int F83.Atribute2 [0..10] delta 1 default 6
+int F83.Atribute4 [0..10] delta 1 default 1
+int F83.Atribute1 [0..10] delta 1 default 10
+int F83.Atribute0 [0..10] delta 1 default 9
+int F49.Atribute3 [0..10] delta 1 default 8
+int F49.Atribute2 [0..10] delta 1 default 4
+int F49.Atribute4 [0..10] delta 1 default 8
+int F49.Atribute1 [0..10] delta 1 default 3
+int F49.Atribute0 [0..10] delta 1 default 2
+int F36.Atribute3 [0..10] delta 1 default 4
+int F36.Atribute2 [0..10] delta 1 default 5
+int F36.Atribute4 [0..10] delta 1 default 7
+int F36.Atribute1 [0..10] delta 1 default 2
+int F36.Atribute0 [0..10] delta 1 default 5
+int F37.Atribute3 [0..10] delta 1 default 6
+int F37.Atribute2 [0..10] delta 1 default 9
+int F37.Atribute4 [0..10] delta 1 default 7
+int F37.Atribute1 [0..10] delta 1 default 5
+int F37.Atribute0 [0..10] delta 1 default 8
+int F38.Atribute3 [0..10] delta 1 default 4
+int F38.Atribute2 [0..10] delta 1 default 2
+int F38.Atribute4 [0..10] delta 1 default 10
+int F38.Atribute1 [0..10] delta 1 default 3
+int F38.Atribute0 [0..10] delta 1 default 4
+int F39.Atribute3 [0..10] delta 1 default 8
+int F39.Atribute2 [0..10] delta 1 default 4
+int F39.Atribute4 [0..10] delta 1 default 6
+int F39.Atribute1 [0..10] delta 1 default 10
+int F39.Atribute0 [0..10] delta 1 default 6
+int F40.Atribute3 [0..10] delta 1 default 3
+int F40.Atribute2 [0..10] delta 1 default 3
+int F40.Atribute4 [0..10] delta 1 default 8
+int F40.Atribute1 [0..10] delta 1 default 6
+int F40.Atribute0 [0..10] delta 1 default 7
+int F41.Atribute3 [0..10] delta 1 default 4
+int F41.Atribute2 [0..10] delta 1 default 6
+int F41.Atribute4 [0..10] delta 1 default 9
+int F41.Atribute1 [0..10] delta 1 default 8
+int F41.Atribute0 [0..10] delta 1 default 1
+int F42.Atribute3 [0..10] delta 1 default 4
+int F42.Atribute2 [0..10] delta 1 default 9
+int F42.Atribute4 [0..10] delta 1 default 3
+int F42.Atribute1 [0..10] delta 1 default 1
+int F42.Atribute0 [0..10] delta 1 default 8
+int F43.Atribute3 [0..10] delta 1 default 10
+int F43.Atribute2 [0..10] delta 1 default 7
+int F43.Atribute4 [0..10] delta 1 default 7
+int F43.Atribute1 [0..10] delta 1 default 9
+int F43.Atribute0 [0..10] delta 1 default 8
+int F84.Atribute3 [0..10] delta 1 default 7
+int F84.Atribute2 [0..10] delta 1 default 9
+int F84.Atribute4 [0..10] delta 1 default 9
+int F84.Atribute1 [0..10] delta 1 default 9
+int F84.Atribute0 [0..10] delta 1 default 10
+int F19.Atribute3 [0..10] delta 1 default 2
+int F19.Atribute2 [0..10] delta 1 default 2
+int F19.Atribute4 [0..10] delta 1 default 2
+int F19.Atribute1 [0..10] delta 1 default 1
+int F19.Atribute0 [0..10] delta 1 default 5
+int F20.Atribute3 [0..10] delta 1 default 8
+int F20.Atribute2 [0..10] delta 1 default 3
+int F20.Atribute4 [0..10] delta 1 default 5
+int F20.Atribute1 [0..10] delta 1 default 2
+int F20.Atribute0 [0..10] delta 1 default 2
+int F30.Atribute3 [0..10] delta 1 default 5
+int F30.Atribute2 [0..10] delta 1 default 2
+int F30.Atribute4 [0..10] delta 1 default 4
+int F30.Atribute1 [0..10] delta 1 default 5
+int F30.Atribute0 [0..10] delta 1 default 3
+int F12.Atribute3 [0..10] delta 1 default 7
+int F12.Atribute2 [0..10] delta 1 default 7
+int F12.Atribute4 [0..10] delta 1 default 3
+int F12.Atribute1 [0..10] delta 1 default 7
+int F12.Atribute0 [0..10] delta 1 default 6
+int F13.Atribute3 [0..10] delta 1 default 7
+int F13.Atribute2 [0..10] delta 1 default 5
+int F13.Atribute4 [0..10] delta 1 default 4
+int F13.Atribute1 [0..10] delta 1 default 6
+int F13.Atribute0 [0..10] delta 1 default 1
+int F9.Atribute3 [0..10] delta 1 default 0
+int F9.Atribute2 [0..10] delta 1 default 1
+int F9.Atribute4 [0..10] delta 1 default 3
+int F9.Atribute1 [0..10] delta 1 default 6
+int F9.Atribute0 [0..10] delta 1 default 8
+int F10.Atribute3 [0..10] delta 1 default 3
+int F10.Atribute2 [0..10] delta 1 default 1
+int F10.Atribute4 [0..10] delta 1 default 5
+int F10.Atribute1 [0..10] delta 1 default 2
+int F10.Atribute0 [0..10] delta 1 default 2
+int F3.Atribute3 [0..10] delta 1 default 6
+int F3.Atribute2 [0..10] delta 1 default 3
+int F3.Atribute4 [0..10] delta 1 default 0
+int F3.Atribute1 [0..10] delta 1 default 3
+int F3.Atribute0 [0..10] delta 1 default 6
+int F180.Atribute3 [0..10] delta 1 default 5
+int F180.Atribute2 [0..10] delta 1 default 6
+int F180.Atribute4 [0..10] delta 1 default 9
+int F180.Atribute1 [0..10] delta 1 default 9
+int F180.Atribute0 [0..10] delta 1 default 9
+int F181.Atribute3 [0..10] delta 1 default 6
+int F181.Atribute2 [0..10] delta 1 default 2
+int F181.Atribute4 [0..10] delta 1 default 2
+int F181.Atribute1 [0..10] delta 1 default 3
+int F181.Atribute0 [0..10] delta 1 default 6
+int F182.Atribute3 [0..10] delta 1 default 5
+int F182.Atribute2 [0..10] delta 1 default 6
+int F182.Atribute4 [0..10] delta 1 default 8
+int F182.Atribute1 [0..10] delta 1 default 9
+int F182.Atribute0 [0..10] delta 1 default 3
+int F183.Atribute3 [0..10] delta 1 default 3
+int F183.Atribute2 [0..10] delta 1 default 0
+int F183.Atribute4 [0..10] delta 1 default 2
+int F183.Atribute1 [0..10] delta 1 default 7
+int F183.Atribute0 [0..10] delta 1 default 1
+int F184.Atribute3 [0..10] delta 1 default 3
+int F184.Atribute2 [0..10] delta 1 default 1
+int F184.Atribute4 [0..10] delta 1 default 7
+int F184.Atribute1 [0..10] delta 1 default 1
+int F184.Atribute0 [0..10] delta 1 default 9
+int F185.Atribute3 [0..10] delta 1 default 0
+int F185.Atribute2 [0..10] delta 1 default 4
+int F185.Atribute4 [0..10] delta 1 default 7
+int F185.Atribute1 [0..10] delta 1 default 3
+int F185.Atribute0 [0..10] delta 1 default 2
+int F186.Atribute3 [0..10] delta 1 default 6
+int F186.Atribute2 [0..10] delta 1 default 3
+int F186.Atribute4 [0..10] delta 1 default 6
+int F186.Atribute1 [0..10] delta 1 default 8
+int F186.Atribute0 [0..10] delta 1 default 4
+int F187.Atribute3 [0..10] delta 1 default 2
+int F187.Atribute2 [0..10] delta 1 default 4
+int F187.Atribute4 [0..10] delta 1 default 9
+int F187.Atribute1 [0..10] delta 1 default 1
+int F187.Atribute0 [0..10] delta 1 default 7
+int F188.Atribute3 [0..10] delta 1 default 6
+int F188.Atribute2 [0..10] delta 1 default 8
+int F188.Atribute4 [0..10] delta 1 default 2
+int F188.Atribute1 [0..10] delta 1 default 2
+int F188.Atribute0 [0..10] delta 1 default 1
+int F25.Atribute3 [0..10] delta 1 default 9
+int F25.Atribute2 [0..10] delta 1 default 5
+int F25.Atribute4 [0..10] delta 1 default 7
+int F25.Atribute1 [0..10] delta 1 default 6
+int F25.Atribute0 [0..10] delta 1 default 9
+int F96.Atribute3 [0..10] delta 1 default 7
+int F96.Atribute2 [0..10] delta 1 default 8
+int F96.Atribute4 [0..10] delta 1 default 6
+int F96.Atribute1 [0..10] delta 1 default 2
+int F96.Atribute0 [0..10] delta 1 default 2
+int F5.Atribute3 [0..10] delta 1 default 9
+int F5.Atribute2 [0..10] delta 1 default 0
+int F5.Atribute4 [0..10] delta 1 default 10
+int F5.Atribute1 [0..10] delta 1 default 3
+int F5.Atribute0 [0..10] delta 1 default 2
+
+Constraints:
+F167 requires F23
+F5 requires F15
+F133 requires F84
+F100 requires F165
+F140 requires F106
+F187 excludes F114
+F44 excludes F82
+F165 excludes F91
+F98 excludes F154
+F24 requires F52
