@@ -1,9 +1,8 @@
 Experiments
 ===========
 
-----------
-SPLC14 - industrial track
-----------
+
+# SPLC14 - industrial track
 
 This project contains the experiments shown in the paper submitted to the SPLC14 industrial track. It is a sef-contained project, this is, all the libraries are included in the /lib folder.
 
